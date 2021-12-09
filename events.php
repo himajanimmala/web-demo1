@@ -14,7 +14,7 @@ if(isset($_POST['upload']))
 	$image = $_FILES['image']['name'];
 	$text = $_POST['text'];
 
-	$sql = "INSERT INTO `images`(`image`,text) VALUES ('$image','$text')";
+	
 	mysqli_query($db,$sql);
 
 	if(move_uploaded_file($_FILES['image']['tmp_name'],$target))
@@ -74,7 +74,9 @@ if(isset($_POST['upload']))
         <img class="preloader" src="images/loader.gif" alt="">
     </div><!-- end loader -->
     <!-- END LOADER -->
-
+<div>
+aahhhiiimmmmaajjjaa
+</div>
     <div id="wrapper">
         <!-- BEGIN # MODAL LOGIN -->
         <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
