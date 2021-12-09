@@ -77,6 +77,9 @@ if(isset($_POST['upload']))
 <div>
 aahhhiiimmmmaajjjaa
 </div>
+<div>
+jjjjjiiii
+</div>
     <div id="wrapper">
         <!-- BEGIN # MODAL LOGIN -->
         <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
