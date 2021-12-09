@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+
+	<head>
+	<title>MY WEBSITE US</title>
+	<link rel="stylesheet" type="text/css" href="styles.css" media="all">
+	</head>
+	<body>
+		<header>
+			<img src="iste logo.png">
+			<h1>ISTE</h1>
+			<h2>Web Portal</h2>
+		</header>
+		
+		<div class="nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="android.html">Events</a></li>
+				<li><a href="datasc.html">Announcements</a></li>
+				<li><a class="active" href="hadoop.html">Rangoli</a></li>
+				<li><a href="webdev.html">Our Interaction</a></li>
+				<li><a href="logout.php">Logout</a></li>
+
+
+			</ul>
+		</div>
+
+		<div class="content">
+		
+		<h1>A Brief Technial over view about Rangoli and Artwork</h1>
+		<article>
+
+		<p>Apache Hadoop ( /h?'du?p/) is a collection of open-source software utilities that facilitate using a network of many computers to solve
+ problems involving massive amounts of data and computation. It provides a software framework for distributed storage and processing of
+ big data using the MapReduce programming model. Originally designed for computer clusters built from commodity hardware[3]—still the 
+common use—it has also found use on clusters of higher-end hardware.[4][5] All the modules in Hadoop are designed with a fundamental
+ assumption that hardware failures are common occurrences and should be automatically handled by the framework.[2]</p>
+
+<img src="1.jpeg" alt="hadoop image">
+<p>The core of Apache Hadoop consists of a storage part, known as Hadoop Distributed File System (HDFS), and a processing part which is
+ a MapReduce programming model. Hadoop splits files into large blocks and distributes them across nodes in a cluster. It then transfers
+ packaged code into nodes to process the data in parallel. This approach takes advantage of data locality,[6] where nodes manipulate the
+ data they have access to. This allows the dataset to be processed faster and more efficiently than it would be in a more conventional
+ supercomputer architecture that relies on a parallel file system where computation and data are distributed via high-speed networking
+.[7][8]</p>
+
+<p>The base Apache Hadoop framework is composed of the following modules:</p>
+
+<p>Hadoop Common – contains libraries and utilities needed by other Hadoop modules;
+Hadoop Distributed File System (HDFS) – a distributed file-system that stores data on commodity machines, providing very high aggregate
+ bandwidth across the cluster;
+Hadoop YARN – (introduced in 2012) a platform responsible for managing computing resources in clusters and using them for scheduling
+ users' applications;[9][10]</p>
+<p>Hadoop MapReduce – an implementation of the MapReduce programming model for large-scale data processing.
+The term Hadoop is often used for both base modules and sub-modules and also the ecosystem,[11] or collection of additional
+ software packages that can be installed on top of or alongside Hadoop, such as Apache Pig, Apache Hive, Apache HBase, Apache 
+Phoenix, Apache Spark, Apache ZooKeeper, Cloudera Impala, Apache Flume, Apache Sqoop, Apache Oozie, and Apache Storm.[12]</p>
+
+<img src="2.jpeg" alt="hadoop image">
+<p>Apache Hadoop's MapReduce and HDFS components were inspired by Google papers on MapReduce and Google File System.[13]
+
+The Hadoop framework itself is mostly written in the Java programming language, with some native code in C and command line 
+utilities written as shell scripts. Though MapReduce Java code is common, any programming language can be used with Hadoop
+ Streaming to implement the map and reduce parts of the user's program.[14] Other projects in the Hadoop ecosystem expose richer
+ user interfaces.</p>
+
+
+<p>Hadoop consists of the Hadoop Common package, which provides file system and operating system level abstractions, a MapReduce engine
+ (either MapReduce/MR1 or YARN/MR2)[67] and the Hadoop Distributed File System (HDFS). The Hadoop Common package contains the Java ARchive 
+(JAR) files and scripts needed to start Hadoop.
+
+For effective scheduling of work, every Hadoop-compatible file system should provide location awareness, which is the name of the rack,
+ specifically the network switch where a worker node is. Hadoop applications can use this information to execute code on the node where
+ the data is, and, failing that, on the same rack/switch to reduce backbone traffic. HDFS uses this method when replicating data for data
+ redundancy across multiple racks. This approach reduces the impact of a rack power outage or switch failure; if any of these hardware
+ failures occurs, the data will remain available.[68]
+
+Hadoop cluster
+A multi-node Hadoop cluster
+A small Hadoop cluster includes a single master and multiple worker nodes. The master node consists of a Job Tracker, Task Tracker, 
+NameNode, and DataNode. A slave or worker node acts as both a DataNode and TaskTracker, though it is possible to have data-only and
+ compute-only worker nodes. These are normally used only in nonstandard applications.[69]
+
+Hadoop requires Java Runtime Environment (JRE) 1.6 or higher. The standard startup and shutdown scripts require that Secure Shell (SSH)
+ be set up between nodes in the cluster.[70]
+
+In a larger cluster, HDFS nodes are managed through a dedicated NameNode server to host the file system index, and a secondary NameNode 
+that can generate snapshots of the namenode's memory structures, thereby preventing file-system corruption and loss of data. Similarly,
+ a standalone JobTracker server can manage job scheduling across nodes. When Hadoop MapReduce is used with an alternate file system, the
+ NameNode, secondary NameNode, and DataNode architecture of HDFS are replaced by the file-system-specific equivalents.</p>
+
+
+
+
+</article>
+
+
+
+
+
+
+
+		</div>
+
+		<div class="footer">
+			<p>www.udaysandeepblogspot.com</p>
+		</div>
+
+	</body>
+
+
+</html>
